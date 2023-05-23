@@ -13,7 +13,7 @@ function Navbar() {
   const hoverTheme = createTheme({
     palette: {
       action: {
-        hover: '#F1F1F1',
+        hover: '#0d2e46',
       }
     }
   })
@@ -22,18 +22,18 @@ function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar elevation={0} position="static" sx={{bgcolor: 'inherit', color: '#1BA098'}}>
         <Toolbar>
-          <MenuItem theme={hoverTheme}>
-            <Link to='/Page' className='navbar-link'>
-             <Typography variant='h6' textAlign="center">Home</Typography>
-            </Link>
-          </MenuItem>
+          <Link to='/Page' className='navbar-link'>
+            <MenuItem theme={hoverTheme}>
+              <Typography variant='h6' textAlign="center">Home</Typography>  
+            </MenuItem>
+          </Link>
 
           {sections.map((section) => (
-              <MenuItem theme={hoverTheme}>
-                <Link to={'#' + section} className='navbar-link'>
+              <Link to={'#' + section} className='navbar-link'>
+                <MenuItem theme={hoverTheme}>
                   <Typography variant='h6' textAlign="center">{section}</Typography>
-                </Link>
-              </MenuItem>
+                </MenuItem>
+              </Link>
           ))
           }
         </Toolbar>
