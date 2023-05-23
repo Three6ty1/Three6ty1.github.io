@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/Three6ty1.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/Three6ty1.github.io/static/js/main.69d992e8.js",
-    "static/js/787.71e672d5.chunk.js": "/Three6ty1.github.io/static/js/787.71e672d5.chunk.js",
-    "static/media/logo.svg": "/Three6ty1.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/Three6ty1.github.io/index.html",
-    "main.073c9b0a.css.map": "/Three6ty1.github.io/static/css/main.073c9b0a.css.map",
-    "main.69d992e8.js.map": "/Three6ty1.github.io/static/js/main.69d992e8.js.map",
-    "787.71e672d5.chunk.js.map": "/Three6ty1.github.io/static/js/787.71e672d5.chunk.js.map"
+    "main.css": "/Page/static/css/main.073c9b0a.css",
+    "main.js": "/Page/static/js/main.5f0cc096.js",
+    "static/js/787.71e672d5.chunk.js": "/Page/static/js/787.71e672d5.chunk.js",
+    "static/media/logo.svg": "/Page/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Page/index.html",
+    "main.073c9b0a.css.map": "/Page/static/css/main.073c9b0a.css.map",
+    "main.5f0cc096.js.map": "/Page/static/js/main.5f0cc096.js.map",
+    "787.71e672d5.chunk.js.map": "/Page/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.69d992e8.js"
+    "static/js/main.5f0cc096.js"
   ]
 }
