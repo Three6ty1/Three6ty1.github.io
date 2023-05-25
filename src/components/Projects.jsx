@@ -9,7 +9,7 @@ function Projects() {
     async function readProjects () {
       // Projects info gets put into public because thats what gets shipped out
       // If it were put into src, use 'import' instead
-      const response = await fetch('/projects_info.json', 
+      const response = await fetch('./projects_info.json', 
       {
         headers: {
           'Content-Type': 'application/json',
