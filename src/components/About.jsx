@@ -16,7 +16,7 @@ function About() {
       </div>
       <br />
       <div className='about-info'>
-        <Typography display="block" variant='h6'>I'm a 4th year Computer Science student studying at UNSW</Typography>
+        <Typography display="block" variant='h5'>I'm a 4th year Computer Science student studying at UNSW</Typography>
       </div>
     </section>
   )

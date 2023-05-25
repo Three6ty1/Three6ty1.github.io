@@ -105,4 +105,5 @@ Body text #DEB992
   animation-iteration-count: infinite;
   -webkit-animation-timing-function: linear; /* Chrome, Safari, Opera */
   animation-timing-function: linear;
+  cursor: pointer;
 }

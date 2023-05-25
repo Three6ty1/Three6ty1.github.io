@@ -24,14 +24,14 @@ function Navbar() {
         <Toolbar>
           <Link to='/Page' className='navbar-link'>
             <MenuItem theme={hoverTheme}>
-              <Typography variant='h6' textAlign="center">Home</Typography>  
+              <Typography variant='h6' sx={{fontWeight: 'bold'}} textAlign="center">Home</Typography>  
             </MenuItem>
           </Link>
 
           {sections.map((section) => (
               <Link to={'#' + section} className='navbar-link'>
                 <MenuItem theme={hoverTheme}>
-                  <Typography variant='h6' textAlign="center">{section}</Typography>
+                  <Typography variant='h6' sx={{fontWeight: 'bold'}} textAlign="center">{section}</Typography>
                 </MenuItem>
               </Link>
           ))
