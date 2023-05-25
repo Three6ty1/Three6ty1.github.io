@@ -13,6 +13,8 @@ function Home() {
       <br />
       <br />
       <Projects />
+      <br />
+      <br />
       <Interests />
     </section>
   )

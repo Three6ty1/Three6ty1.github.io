@@ -108,7 +108,7 @@ Body text #DEB992
   cursor: pointer;
 }
 
-#Projects {
+#Projects, #Interests{
   display:flex;
   flex-direction: column;
   justify-content: center;
