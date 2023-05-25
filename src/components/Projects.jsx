@@ -1,5 +1,5 @@
 import { Typography } from '@mui/material';
-import React from 'react';
+import React, { Fragment } from 'react';
 import Project from './Project'
 
 function Projects() {
@@ -33,7 +33,11 @@ function Projects() {
       <Typography variant='h4' sx={{color: '#1BA098'}}>Projects</Typography>
       <br />
       {projects.map((p) => (
-        <Project key={p.name} project={p} />
+        <Fragment key={p.name}>
+          <Project project={p} />
+          <br/>
+          <br/>
+        </Fragment>
       ))
       }
     </section>

@@ -50,26 +50,24 @@ function Project(props) {
         sx={{
           display: 'flex',
           backgroundColor: '#070707',
-          zIndex: 1,
         }}
         elevation={0}
         >
         <CardMedia
           className={'card-image'}
-          sx={{ height: 200, minWidth: 300, alignSelf: 'center', borderRadius: '10px'}}
-          image={valid ? Default : img}
           name={project.name + ' image'}
+          image={valid ? Default : img}
+          sx={{ 
+            height: 200, 
+            minWidth: 300, 
+            alignSelf: 'center', 
+            borderRadius: '10px'}}
         />
         <CardContent
-          sx={{
-            color: '#DEB992',
-          }}
+          sx={{color: '#DEB992'}}
         >
           <Typography sx={{fontWeight: 'light'}} variant='h5' gutterBottom>
-            <Link
-              underline='hover'
-              sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}}
-            >
+            <Link underline='hover' sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}}>
               {project.name}
             </Link>
           </Typography>
@@ -78,17 +76,15 @@ function Project(props) {
           {project.skills.map((skill) => (
             <Typography
               key={skill}
+              variant='body1'
               sx={{
                 display: 'inline', 
                 fontWeight: 'light', 
                 fontStyle: 'italic', 
                 position: 'relative', 
-                bottom: '0'}} 
-              variant='body1'>
-              {skill}
-              &nbsp;
-              &nbsp;
-              &nbsp;
+                bottom: '0'}}
+            >
+              {skill}&nbsp;&nbsp;&nbsp;
             </Typography>
           ))}
         </CardContent>
@@ -97,8 +93,4 @@ function Project(props) {
   )
 }
 
-
-/*
-
-*/
 export default Project;
