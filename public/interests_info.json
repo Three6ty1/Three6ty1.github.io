@@ -1,0 +1,34 @@
+{
+    "interests": [
+        {
+            "name": "Honkai Star Rail",
+            "quote": "March 7th, my loveable idiot",
+            "image": "starrail.png"
+        },
+        {
+            "name": "Project Sekai",
+            "quote": "Skrunkly Kanade <3",
+            "image": "sekai.png"
+        },
+        {
+            "name": "Limbus Company",
+            "quote": "ONE LIMBILLION DOLLARS!!1!!11",
+            "image": "limbus.png"
+        },
+        {
+            "name": "Arknights",
+            "quote": "Come close to me, Come close to me",
+            "image": "arknights.png"
+        },
+        {
+            "name": "Celeste",
+            "quote": "Farewell: 10:43:28 3834 Deaths pain",
+            "image": "celeste.png"
+        },
+        {
+            "name": "maimai + CHUNITHM",
+            "quote": "FC rate? 0%. Acc? Terrible. Offset? Waaay too high",
+            "image": "maimai.png"
+        }
+    ]
+}

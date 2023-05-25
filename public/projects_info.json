@@ -1,0 +1,22 @@
+{
+    "projects": [
+        {
+            "name": "React personal website",
+            "description": "The website you are looking at right now is made using React!\nHopefully I was able to create something that is nice to look at and feels alive",
+            "skills": ["React", "MUI", "React Helmet Async"],
+            "image": "website.png"
+        },
+        {
+            "name": "Wordle clone",
+            "description": "The hit daily game that took me and my friend groups by storm.\n I decided to try and recreate it by adding my own personal and questionable aesthetic flair to the game",
+            "skills": ["React"],
+            "image": "wordle.png"
+        },
+        {
+            "name": "Placeholder",
+            "description": "lorem ipsum adianwdiwnaidnawidnawi adnwiandiwa aiwdwad aowdowad awdomawodmaw awd aw daw d awd awd aw ga egser gh rh r",
+            "skills": ["React", "Python", "C++", "WHAT WHAT"],
+            "image": "website.png"
+        }
+    ]
+}
