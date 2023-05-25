@@ -66,7 +66,7 @@ function Project(props) {
         <CardContent
           sx={{color: '#DEB992'}}
         >
-          <Typography sx={{fontWeight: 'light'}} variant='h5' gutterBottom>
+          <Typography sx={{fontWeight: 'light', color: '#1BA098'}} variant='h5' gutterBottom>
             <Link underline='hover' sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}}>
               {project.name}
             </Link>

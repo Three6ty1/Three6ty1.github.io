@@ -28,7 +28,7 @@ function Interests() {
 
   return (
     <section id='Interests'>
-      <Typography variant='h4' sx={{color: '#1BA098', justifySelf: 'center'}}>Interests</Typography>
+      <Typography variant='h4' sx={{color: '#1BA098', fontWeight: 'bold', justifySelf: 'center'}}>Interests</Typography>
       <br />
       <br />
       <br />

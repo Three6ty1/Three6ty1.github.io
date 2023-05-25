@@ -18,7 +18,7 @@ function Interest (prop) {
 
   return (
     <Fragment>
-      <Typography variant='h5' sx={{fontWeight: 'bold'}}>{interest.name}</Typography>
+      <Typography variant='h5' sx={{color: '#1BA098'}}>{interest.name}</Typography>
       <br />
       <br />
       <div className='interest-image' onMouseOver={() => setHovered(() => true)}>

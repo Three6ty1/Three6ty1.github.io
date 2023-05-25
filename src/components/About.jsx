@@ -8,7 +8,9 @@ function About() {
       <br />
       <br />
       <div className='about-info'>
-        <Typography display='block' variant='h3'>Hello! I'm Wen Kai Zhang</Typography>
+        <Typography display='inline' variant='h3'>Hello! I'm </Typography>
+        <Typography sx={{color: '#1BA098'}} display='inline' variant='h3'>Wen Kai</Typography>
+        <Typography display='inline' variant='h3'> Zhang</Typography>
       </div>
       <br />
       <div id='about-image-div'>
