@@ -8,7 +8,7 @@
         },
         {
             "name": "Wordle clone",
-            "description": "The hit daily game that took me and my friend groups by storm. I decided to try and recreate it by adding my own personal and questionable aesthetic flair to the game",
+            "description": "The hit daily game that took me and my friend groups by storm.\n I decided to try and recreate it by adding my own personal and questionable aesthetic flair to the game",
             "skills": ["React"],
             "image": "wordle.png"
         },
