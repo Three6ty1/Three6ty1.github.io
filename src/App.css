@@ -108,9 +108,69 @@ Body text #DEB992
   cursor: pointer;
 }
 
-#Projects, #Interests{
+#Projects, #Interests {
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#interest-items {
+  width: 65%;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.interest-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex: 50%;
+}
+
+@keyframes appear {
+  20% {
+    scale: 0.9;
+  }
+
+  49% {
+    visibility: visible;
+  }
+  
+  50% {
+    transform: translateY(-130%);
+    scale: 1.1;
+  }
+
+  100% {
+    visibility: visible;
+    scale: 1;
+    transform: translateY(-130%)
+  }
+}
+
+.interest-quote {
+  visibility: hidden;
+  position: relative;
+  top: -70%;
+  z-index: -1;
+  animation: appear;
+  animation-duration: 1s;
+  animation-play-state: paused;
+  animation-fill-mode: forwards;
+}
+
+.interest-image {
+  justify-self: center;
+  align-self: center;
+  max-width: 100%;
+  max-width: 100%;
+  z-index: 1;
+}
+
+.interest-quote.hovered {
+  animation-play-state: running;
 }

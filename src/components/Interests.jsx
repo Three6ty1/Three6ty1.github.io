@@ -20,7 +20,6 @@ function Interests() {
         alert(data.error);
       } else {
         setInterests(data.interests);
-        console.log(interests);
       }
     }
     
@@ -29,17 +28,20 @@ function Interests() {
 
   return (
     <section id='Interests'>
-      <Typography variant='h4' sx={{color: '#1BA098'}}>Interests</Typography>
+      <Typography variant='h4' sx={{color: '#1BA098', justifySelf: 'center'}}>Interests</Typography>
       <br />
-      {interests.map((i) => (
-        <Fragment key={i.name}>
-          <Interest interest={i} />
-          <br/>
-          <br/>
-        </Fragment>
-      ))
-      }
+      <br />
+      <br />
+      <div id='interest-items'>
+        {interests.map((i) => (
+          <div key={i.name} className='interest-item'>
+            <Interest interest={i} />
+          </div>
+        ))
+        }
+      </div>
     </section>
+    
   )
 }
 
