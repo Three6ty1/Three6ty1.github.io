@@ -29,7 +29,7 @@ function Navbar() {
           </Link>
 
           {sections.map((section) => (
-              <Link to={'#' + section} className='navbar-link'>
+              <Link key={section} to={'#' + section} className='navbar-link'>
                 <MenuItem theme={hoverTheme}>
                   <Typography variant='h6' sx={{fontWeight: 'bold'}} textAlign="center">{section}</Typography>
                 </MenuItem>

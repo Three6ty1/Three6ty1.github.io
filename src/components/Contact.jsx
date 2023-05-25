@@ -11,7 +11,7 @@ function Contact() {
     <section id='Contact'>
       <div id='app-logos'></div>
         {contacts.map((contact) => (
-          <img className='app-logo' src={contact} alt={{contact} + ' logo'} />
+          <img key={contact} className='app-logo' src={contact} alt={{contact} + ' logo'} />
         ))
         }
     </section>
