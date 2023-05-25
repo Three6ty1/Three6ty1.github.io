@@ -10,6 +10,8 @@ function Home() {
     <section id='home-section'>
       <About />
       <Contact />
+      <br />
+      <br />
       <Projects />
       <Interests />
     </section>

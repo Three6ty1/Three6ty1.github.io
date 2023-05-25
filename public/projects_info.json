@@ -2,8 +2,8 @@
     "projects": [
         {
             "name": "React personal website",
-            "description": "The website you are looking at right now is made using React! With some help of MUI components and simple CSS animations, I was able to create something that is nice to look at, alive and hopefully reflects my personality",
-            "skills": ["React", "MUI", "React Helmet Async", "FontAwesome"],
+            "description": "The website you are looking at right now is made using React!\nHopefully I was able to create something that is nice to look at and feels alive",
+            "skills": ["React", "MUI", "React Helmet Async"],
             "image": "website.png"
         },
         {

@@ -30,9 +30,14 @@ function Projects() {
 
   return (
     <section id='Projects'>
-      <Typography variant='h4'>Projects</Typography>
+      <Typography variant='h4' sx={{color: '#1BA098', textDecoration: 'underline'}}>Projects</Typography>
+      <br />
       {projects.map((p) => (
-        <Project key={p.name} project={p} />
+        <>
+          <Project key={p.name} project={p} />
+          <br />
+          <br />
+        </>
       ))
       }
     </section>

@@ -108,6 +108,13 @@ Body text #DEB992
   cursor: pointer;
 }
 
+#Projects {
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
 .project-box {
   border: #1BA098;
   border-radius: 2px;

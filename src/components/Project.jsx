@@ -1,5 +1,5 @@
-import { Typography } from '@mui/material';
-import React from 'react';
+import { Box, Typography } from '@mui/material';
+import React, { Component } from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
 import CardContent from '@mui/material/CardContent';
@@ -18,21 +18,55 @@ function Project(props) {
   }
 
   return (
-    <Card id={'props' + project.name} sx={{ maxWidth: 345 }}>
-      <CardMedia
-        sx={{ height: 140 }}
-        image={img}
-        title={project.name + 'image'}
-      />
-      <CardContent>
-        <Typography sx={{fontWeight: 'light'}} variant='h5'>{project.name}</Typography>
-        <Typography sx={{fontWeight: 'light'}} variant='body1'>{project.description}</Typography>
-        <Typography sx={{fontWeight: 'bold'}} variant='body1'>{project.skills}</Typography>
-      </CardContent>
-      <CardActions>
-        <Button size="small">Learn More</Button>
-      </CardActions>
-  </Card>
+    <>
+      <Card 
+        id={'props' + project.name} 
+        sx={{
+          width: '50%',
+          height: '200px', 
+          display: 'flex', 
+          backgroundColor: '#070707',
+          borderRadius: '10px',
+          borderColor: '#1BA098',
+          borderStyle: 'solid',
+          borderWidth: '1px',
+          zIndex: 1,
+        }}
+        elevation={0}
+        >
+        <CardMedia
+          sx={{ height: 200, minWidth: 300, alignSelf: 'center'}}
+          image={img}
+          title={project.name + 'image'}
+        />
+        <CardContent
+          sx={{
+            color: '#DEB992',
+          }}
+        >
+          <Typography sx={{fontWeight: 'light'}} variant='h5' gutterBottom>{project.name}</Typography>
+          <Typography sx={{fontWeight: 'light'}} style={{whiteSpace: 'pre-line'}} variant='body1'>{project.description}</Typography>
+          <br />
+          <Typography sx={{fontWeight: 'bold', position: 'relative', bottom: '0'}} variant='body1'>{project.skills}</Typography>
+        </CardContent>
+      </Card>
+      <Box
+        sx={{
+          border: 'solid', 
+          borderRadius: '10px',
+          borderColor:'#1BA098',
+          borderWidth: '2px',
+          height: 200,
+          width: '50%',
+          position: 'relative',
+          marginTop: '-185px',
+          marginLeft: '2%',
+          zIndex: 0,
+        }}
+      >
+      </Box>
+    </>
+    
   )
 }
 
