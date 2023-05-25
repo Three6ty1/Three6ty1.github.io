@@ -13,7 +13,7 @@ function Navbar() {
   const hoverTheme = createTheme({
     palette: {
       action: {
-        hover: '#0d2e46',
+        hover: '#1F1F1F',
       }
     }
   })

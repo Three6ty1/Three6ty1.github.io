@@ -107,3 +107,12 @@ Body text #DEB992
   animation-timing-function: linear;
   cursor: pointer;
 }
+
+.project-box {
+  border: #1BA098;
+  border-radius: 2px;
+  border-width: 2px;
+  border-color: #1BA098;
+  color: inherit;
+
+}

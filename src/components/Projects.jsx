@@ -5,17 +5,22 @@ import Project from './Project'
 function Projects() {
   const [projects, setProjects] = React.useState([]);
 
-  
-
   React.useEffect(() => {
     async function readProjects () {
-      const response = await fetch('../../projects.json');
+      // Projects info gets put into public because thats what gets shipped out
+      // If it were put into src, use 'import' instead
+      const response = await fetch('/projects_info.json', 
+      {
+        headers: {
+          'Content-Type': 'application/json',
+          'Accept': 'application/json'
+        }
+      });
       const data = await response.json();
-      console.log("what");
+
       if (data.error) {
         alert(data.error);
       } else {
-        console.log(data.projects);
         setProjects(data.projects);
       }
     }
@@ -26,9 +31,10 @@ function Projects() {
   return (
     <section id='Projects'>
       <Typography variant='h4'>Projects</Typography>
-      discord unscramble bot
-      tbd wordle react clone
-      tbd webscraper for project sekai
+      {projects.map((p) => (
+        <Project key={p.name} project={p} />
+      ))
+      }
     </section>
   )
 }
