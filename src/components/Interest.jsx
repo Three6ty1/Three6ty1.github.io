@@ -7,22 +7,41 @@ function Interest (prop) {
   const interest = prop.interest;
 
   let img;
-  let valid = false;
+  let logo;
+  let validImg = false;
+  let validLogo = false;
 
+  // Weird thing where it allows dynamic if the first thing is static...?
   try {
-    img = require(interest.image);
-    valid = true;
+    img = require('../images/' + interest.prefix + '.png');
+    validImg = true;
   } catch {
     img = Default;
   }
 
+  try {
+    logo = require('../images/' + interest.prefix + '-logo.png');
+    validLogo = true;
+  } catch {
+    logo = Default;
+  }
+
+  console.log(validLogo);
+
   return (
     <Fragment>
-      <Typography variant='h5' sx={{color: '#1BA098'}}>{interest.name}</Typography>
+      {validLogo ?
+      (
+        <img className='interest-logo' src={logo} alt={prop.name + ' logo'}/>
+      )
+      : 
+      (
+        <Typography variant='h5' sx={{color: '#1BA098'}}>{interest.name}</Typography>
+      )}
       <br />
       <br />
       <div className='interest-image' onMouseOver={() => setHovered(() => true)}>
-        <img src={valid ? img : Default} alt={prop.name + ' image'}/>
+        <img src={validImg ? img : Default} alt={prop.name + ' image'}/>
       </div>
       <div className={'interest-quote ' + (hovered ? 'hovered' : '')}>
         <Typography variant='h6' sx={{fontWeight: 'light'}}>{interest.quote}</Typography>

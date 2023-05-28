@@ -3,32 +3,32 @@
         {
             "name": "Honkai Star Rail",
             "quote": "March 7th, my loveable idiot",
-            "image": "starrail.png"
+            "prefix": "starrail"
         },
         {
             "name": "Project Sekai",
             "quote": "Skrunkly Kanade <3",
-            "image": "sekai.png"
+            "prefix": "sekai"
         },
         {
             "name": "Limbus Company",
             "quote": "ONE LIMBILLION DOLLARS!!1!!11",
-            "image": "limbus.png"
+            "prefix": "limbus"
         },
         {
             "name": "Arknights",
             "quote": "Come close to me, Come close to me",
-            "image": "arknights.png"
+            "prefix": "arknights"
         },
         {
             "name": "Celeste",
             "quote": "Farewell: 10:43:28 3834 Deaths pain",
-            "image": "celeste.png"
+            "prefix": "celeste"
         },
         {
             "name": "maimai + CHUNITHM",
-            "quote": "FC rate? 0%. Acc? Terrible. Offset? Waaay too high",
-            "image": "maimai.png"
+            "quote": "Record breaking 0% FC rate",
+            "prefix": "maimai"
         }
     ]
 }

@@ -115,6 +115,13 @@ Body text #DEB992
   align-items: center;
 }
 
+.interest-logo {
+  height: 100px;
+  border-color: red;
+  border-width: 1px;
+  border-style: solid;
+}
+
 #interest-items {
   width: 65%;
   justify-content: center;
@@ -124,9 +131,10 @@ Body text #DEB992
 }
 
 .interest-item {
+  height: 450px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex: 50%;
 }
@@ -141,21 +149,21 @@ Body text #DEB992
   }
   
   50% {
-    transform: translateY(-130%);
+    transform: translateY(-110%);
     scale: 1.1;
   }
 
   100% {
     visibility: visible;
     scale: 1;
-    transform: translateY(-130%)
+    transform: translateY(-110%)
   }
 }
 
 .interest-quote {
   visibility: hidden;
   position: relative;
-  top: -70%;
+  top: -59%;
   z-index: -1;
   animation: appear;
   animation-duration: 1s;
