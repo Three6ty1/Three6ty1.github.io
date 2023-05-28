@@ -174,3 +174,30 @@ Body text #DEB992
 .interest-quote.hovered {
   animation-play-state: running;
 }
+
+#dp-ring {
+  position: absolute;
+  height: 300px;
+  width: 300px;
+  background: rgba(0, 0, 0, 0);
+  border-radius: 50%;
+  z-index: -1;
+}
+
+#dp-ring span {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #1BA098;
+  border-radius: inherit;
+  opacity: .8;
+  animation: pulseAnimate 3s ease-out infinite;
+  animation-delay: calc(1s * var(--i));
+}
+
+@keyframes pulseAnimate {
+  100% {
+    opacity: 0;
+    transform: scale(1.15);
+  }
+}

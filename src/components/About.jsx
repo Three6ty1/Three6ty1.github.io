@@ -13,8 +13,16 @@ function About() {
         <Typography display='inline' variant='h3'> Zhang</Typography>
       </div>
       <br />
-      <div id='about-image-div'>
-        <img style={{height: '300px', width: '300px'}} src={AboutIcon} alt="About me" />
+      <div>
+        <div id='dp-ring'>
+          <span style={{'--i':0}}></span>
+          <span style={{'--i':1}}></span>
+          <span style={{'--i':2}}></span>
+          <span style={{'--i':3}}></span>
+        </div>
+        <div id='about-image-div'>
+          <img style={{height: '300px', width: '300px'}} src={AboutIcon} alt="About me" />
+        </div>
       </div>
       <br />
       <div className='about-info'>
