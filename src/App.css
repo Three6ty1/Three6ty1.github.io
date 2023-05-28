@@ -201,3 +201,20 @@ Body text #DEB992
     transform: scale(1.15);
   }
 }
+
+.moving-name span {
+  position: relative;
+  color: #1BA098;
+}
+
+.moving-name:hover span{
+  animation: bounce 0.3s ease-in-out infinite alternate;
+  animation-delay: calc(0.1s * var(--n));
+}
+
+@keyframes bounce {
+  100% {
+    top: -10px;
+  }
+}
+
