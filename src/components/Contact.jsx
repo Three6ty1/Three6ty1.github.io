@@ -1,8 +1,8 @@
 import React from 'react';
-import Discord from '../images/discord.svg';
-import Email from '../images/envelope-solid.svg';
-import GitHub from '../images/github.svg';
-import LinkedIn from '../images/linkedin.svg';
+import Discord from '../images/icons/discord.svg';
+import Email from '../images/icons/envelope-solid.svg';
+import GitHub from '../images/icons/github.svg';
+import LinkedIn from '../images/icons/linkedin.svg';
 
 const contacts = [GitHub, LinkedIn, Email, Discord];
 

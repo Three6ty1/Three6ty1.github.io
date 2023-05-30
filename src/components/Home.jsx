@@ -14,7 +14,6 @@ TODO: Mobile responsiveness (Maybe)
 
 Misc
 TODO: Fix nav bar scroll delay...
-TODO: Reorganise image folder
 */
 
 function Home() {

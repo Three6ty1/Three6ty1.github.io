@@ -12,17 +12,17 @@ function Interest (prop) {
 
   // Weird thing where it allows dynamic if the first thing is static...?
   try {
-    img = require('./../images/' + interest.prefix + '.gif');
+    img = require('./../images/interests/' + interest.prefix + '.gif');
   } catch {
     try {
-      img = require('./../images/' + interest.prefix + '.png');
+      img = require('./../images/interests/' + interest.prefix + '.png');
     } catch {
       img = Default;
     }
   }
 
   try {
-    logo = require('./../images/' + interest.prefix + '-logo.png');
+    logo = require('./../images/logos/' + interest.prefix + '-logo.png');
     validLogo = true;
   } catch {
     logo = Default;

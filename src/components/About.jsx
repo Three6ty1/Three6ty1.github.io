@@ -1,6 +1,6 @@
 import React from 'react';
 import Typography from '@mui/material/Typography';
-import AboutIcon from '../images/about-icon.png';
+import AboutIcon from '../images/icons/about.png';
 
 function About() {
   return (

@@ -13,7 +13,7 @@ function Project(props) {
   let valid = false;
 
   try {
-    img = require('../images/' + project.image);
+    img = require('../images/projects/' + project.image);
     valid = true;
   } catch {
     img = Default;
@@ -42,7 +42,7 @@ function Project(props) {
 
           <Typography sx={{fontWeight: 'light'}} style={{whiteSpace: 'pre-line'}} variant='body1'>{project.description}</Typography>
           <br />
-          
+
           {project.skills.map((skill) => (
             <Typography key={skill} variant='body1'
               sx={{
