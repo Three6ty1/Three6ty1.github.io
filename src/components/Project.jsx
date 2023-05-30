@@ -31,7 +31,7 @@ function Project(props) {
         className='project-card'
         sx={{
           display: 'flex',
-          backgroundColor: '#070707',
+          backgroundColor: 'rgba(0, 0, 0, 0)',
         }}
         elevation={0}
         >

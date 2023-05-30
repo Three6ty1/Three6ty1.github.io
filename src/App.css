@@ -1,6 +1,6 @@
 html {
   scroll-behavior: smooth;
-  background-color: #070707;
+  background: transparent url(./images/background.png) repeat top;
   color: #DEB992;
   font-family: 'Roboto', sans-serif;
 }
@@ -14,7 +14,6 @@ Colour palette
 
 Important text #1BA098
 Hover color #0d2e46
-Background #051622
 Body text #DEB992
 */
 
@@ -147,14 +146,14 @@ Body text #DEB992
   }
   
   50% {
-    transform: translateY(-110%);
+    transform: translateY(-2em);
     scale: 1.1;
   }
 
   100% {
     visibility: visible;
     scale: 1;
-    transform: translateY(-110%)
+    transform: translateY(-1.8em)
   }
 }
 

@@ -6,15 +6,18 @@ import Contact from './Contact';
 import Interests from './Interests';
 
 /*
-TODO: Mobile responsiveness (Maybe)
-TODO: Add proper images
-TODO: Add flair to the plain background 
-TODO: Set up actual links for the project and contact section
-TODO: Fix nav bar scroll delay...
-TODO: Fix up repo README and About section
-TODO: Fix meta data for website. Tab image and text. 
-TODO: Change animation units for interests to em based
+Style
+TODO: Fix styling at the Project.jsx section
 
+Important
+TODO: Set up actual links for the project and contact section
+TODO: Fix meta data for website. Tab image and text. 
+TODO: Fix up repo README and About section
+TODO: Mobile responsiveness (Maybe)
+
+Misc
+TODO: Fix nav bar scroll delay...
+TODO: Reorganise image folder
 */
 
 function Home() {
