@@ -6,9 +6,6 @@ import Contact from './Contact';
 import Interests from './Interests';
 
 /*
-Style
-TODO: Fix styling at the Project.jsx section
-
 Important
 TODO: Set up actual links for the project and contact section
 TODO: Fix meta data for website. Tab image and text. 

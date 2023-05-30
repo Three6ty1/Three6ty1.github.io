@@ -27,27 +27,11 @@ function Project(props) {
         display: 'flex',
       }}
     >
-      <Card
-        className='project-card'
-        sx={{
-          display: 'flex',
-          backgroundColor: 'rgba(0, 0, 0, 0)',
-        }}
-        elevation={0}
-        >
-        <CardMedia
-          className={'card-image'}
-          name={project.name + ' image'}
-          image={valid ? img : Default}
-          sx={{ 
-            height: 200, 
-            minWidth: 300, 
-            alignSelf: 'center', 
-            borderRadius: '10px'}}
-        />
-        <CardContent
-          sx={{color: '#DEB992'}}
-        >
+      <Card className='project-card' elevation={0} sx={{backgroundColor: 'rgba(0,0,0,0)'}}>
+
+        <CardMedia className='project-image' name={project.name + ' image'} image={valid ? img : Default}/>
+
+        <CardContent className='project-content'>
           <Typography sx={{fontWeight: 'light', color: '#1BA098'}} variant='h5' gutterBottom>
             <Link underline='none' sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}} className='moving-heading'>
               {project.name.split('').map((letter, index) => (
@@ -55,19 +39,19 @@ function Project(props) {
               ))}
             </Link>
           </Typography>
+
           <Typography sx={{fontWeight: 'light'}} style={{whiteSpace: 'pre-line'}} variant='body1'>{project.description}</Typography>
           <br />
+          
           {project.skills.map((skill) => (
-            <Typography
-              key={skill}
-              variant='body1'
+            <Typography key={skill} variant='body1'
               sx={{
                 display: 'inline', 
                 fontWeight: 'light', 
                 fontStyle: 'italic', 
-                position: 'relative', 
-                bottom: '0'}}
-            >
+                position: 'relative',  
+                bottom: '0'
+            }}>
               {skill}&nbsp;&nbsp;&nbsp;
             </Typography>
           ))}

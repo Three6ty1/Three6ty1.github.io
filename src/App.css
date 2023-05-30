@@ -114,6 +114,21 @@ Body text #DEB992
   align-items: center;
 }
 
+.project-card {
+  display: flex;
+}
+
+.project-image {
+  height: 200px;
+  min-width: 300px;
+  align-self: center;
+  border-radius: 10px;
+}
+
+.project-content {
+  color: #DEB992;
+}
+
 .interest-logo {
   height: 100px;
 }
