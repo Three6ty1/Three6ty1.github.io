@@ -1,21 +1,35 @@
 {
   "files": {
-    "main.css": "/Page/static/css/main.62559417.css",
-    "main.js": "/Page/static/js/main.d8598292.js",
+    "main.css": "/Page/static/css/main.fa3ee3c4.css",
+    "main.js": "/Page/static/js/main.4a4ea77e.js",
     "static/js/787.71e672d5.chunk.js": "/Page/static/js/787.71e672d5.chunk.js",
+    "static/media/limbus.gif": "/Page/static/media/limbus.c38250c4ee83b0345f73.gif",
+    "static/media/celeste.gif": "/Page/static/media/celeste.e1ba7a065b801cbfb46f.gif",
+    "static/media/arknights.gif": "/Page/static/media/arknights.1591141f911528e99efe.gif",
+    "static/media/starrail.png": "/Page/static/media/starrail.42f630afe49d60b83453.png",
+    "static/media/arknights.png": "/Page/static/media/arknights.3076fb77d1e6fbc3da38.png",
+    "static/media/maimai.png": "/Page/static/media/maimai.d6908a972a78e3c73fa4.png",
+    "static/media/limbus-logo.png": "/Page/static/media/limbus-logo.591023531541e3fb2195.png",
+    "static/media/maimai-logo.png": "/Page/static/media/maimai-logo.d4acfba4eb3669e80078.png",
+    "static/media/website.png": "/Page/static/media/website.ef5a4e839e2e86b67132.png",
+    "static/media/celeste-logo.png": "/Page/static/media/celeste-logo.62774809ce9cc2467251.png",
     "static/media/about-icon.png": "/Page/static/media/about-icon.48a5e7a4a3ef2d144255.png",
+    "static/media/sekai.png": "/Page/static/media/sekai.aa549784d6477e33b575.png",
     "static/media/default.png": "/Page/static/media/default.85d52316950418bb47b2.png",
+    "static/media/starrail-logo.png": "/Page/static/media/starrail-logo.7ca9acaaeaea7cb43c41.png",
+    "static/media/sekai-logo.png": "/Page/static/media/sekai-logo.967ab6aebf7be7b857a0.png",
+    "static/media/arknights-logo.png": "/Page/static/media/arknights-logo.5e37b4a8ebfabcb3b7bc.png",
     "static/media/github.svg": "/Page/static/media/github.ebd452bf402237ef25876cdcac686676.svg",
     "static/media/discord.svg": "/Page/static/media/discord.a0c4cf7755c6653944b33ca5f7aed92a.svg",
     "static/media/linkedin.svg": "/Page/static/media/linkedin.93683c2cc3d5ca884dcf6c3525104a48.svg",
     "index.html": "/Page/index.html",
     "static/media/envelope-solid.svg": "/Page/static/media/envelope-solid.6345f82ededa4dc800949734956dc764.svg",
-    "main.62559417.css.map": "/Page/static/css/main.62559417.css.map",
-    "main.d8598292.js.map": "/Page/static/js/main.d8598292.js.map",
+    "main.fa3ee3c4.css.map": "/Page/static/css/main.fa3ee3c4.css.map",
+    "main.4a4ea77e.js.map": "/Page/static/js/main.4a4ea77e.js.map",
     "787.71e672d5.chunk.js.map": "/Page/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62559417.css",
-    "static/js/main.d8598292.js"
+    "static/css/main.fa3ee3c4.css",
+    "static/js/main.4a4ea77e.js"
   ]
 }
