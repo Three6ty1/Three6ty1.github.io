@@ -5,33 +5,15 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Link from '@mui/material/Link';
 import Default from '../images/default.png';
-// import { keyframes } from '@mui/system';
-
-// const push = keyframes`
-//   0% {
-//     transform: translateX(0);
-//     transform: translateY(0);
-//   }
-//   33% {
-//     transform: rotate(2deg);
-//   }
-//   66% {
-//     transform: rotate(-2deg);
-//   }
-//   90% {
-//     transform: rotate(1deg);
-//   }
-// `;
 
 function Project(props) {
   const project = props.project;
-  // const [animated, setAnimated] = React.useState(false);
 
   let img;
   let valid = false;
 
   try {
-    img = require(project.image);
+    img = require('../images/' + project.image);
     valid = true;
   } catch {
     img = Default;
@@ -56,7 +38,7 @@ function Project(props) {
         <CardMedia
           className={'card-image'}
           name={project.name + ' image'}
-          image={valid ? Default : img}
+          image={valid ? img : Default}
           sx={{ 
             height: 200, 
             minWidth: 300, 
@@ -67,8 +49,10 @@ function Project(props) {
           sx={{color: '#DEB992'}}
         >
           <Typography sx={{fontWeight: 'light', color: '#1BA098'}} variant='h5' gutterBottom>
-            <Link underline='hover' sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}}>
-              {project.name}
+            <Link underline='none' sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}} className='moving-heading'>
+              {project.name.split('').map((letter, index) => (
+                <span key={'project-letter-' + index} style={{'--n':index}}>{letter}</span>
+              ))}
             </Link>
           </Typography>
           <Typography sx={{fontWeight: 'light'}} style={{whiteSpace: 'pre-line'}} variant='body1'>{project.description}</Typography>

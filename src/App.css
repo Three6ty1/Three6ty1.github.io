@@ -132,6 +132,7 @@ Body text #DEB992
 
 .interest-item {
   height: 450px;
+  width: 50%;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -171,12 +172,17 @@ Body text #DEB992
   animation-fill-mode: forwards;
 }
 
-.interest-image {
+.interest-image-div {
   justify-self: center;
   align-self: center;
-  max-width: 100%;
-  max-width: 100%;
+  align-items: center;
   z-index: 1;
+}
+
+.interest-image {
+  width: 350px;
+  height: 250px;
+  object-fit: cover;
 }
 
 .interest-quote.hovered {
@@ -210,19 +216,19 @@ Body text #DEB992
   }
 }
 
-.moving-name span {
+.moving-heading span {
   position: relative;
   color: #1BA098;
 }
 
-.moving-name:hover span{
+.moving-heading:hover span{
   animation: bounce 0.3s ease-in-out infinite alternate;
   animation-delay: calc(0.1s * var(--n));
 }
 
 @keyframes bounce {
   100% {
-    top: -10px;
+    top: -0.2em
   }
 }
 

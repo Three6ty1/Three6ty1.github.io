@@ -9,7 +9,7 @@ function About() {
       <br />
       <div className='about-info'>
         <Typography display='inline' variant='h3'>Hello! I'm </Typography>
-        <Typography className='moving-name' display='inline' variant='h3'>
+        <Typography className='moving-heading' display='inline' variant='h3'>
           <span style={{'--n':0}}>W</span> 
           <span style={{'--n':1}}>e</span>
           <span style={{'--n':2}}>n</span>

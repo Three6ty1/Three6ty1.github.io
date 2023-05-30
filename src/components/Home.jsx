@@ -9,8 +9,11 @@ import Interests from './Interests';
 TODO: Mobile responsiveness (Maybe)
 TODO: Add proper images
 TODO: Add flair to the plain background 
-TODO: Set up actual links for the project (make it bob?) and contact section
+TODO: Set up actual links for the project and contact section
 TODO: Fix nav bar scroll delay...
+TODO: Fix up repo README and About section
+TODO: Fix meta data for website. Tab image and text. 
+TODO: Change animation units for interests to em based
 
 */
 
