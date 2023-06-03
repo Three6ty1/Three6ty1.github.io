@@ -5,6 +5,11 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 [MUI components](https://mui.com/) were used to style various sections of the website
 [React scroll](https://www.npmjs.com/package/react-scroll) for... scrolling.
 
+## TODO list
+- Missing links for the contact section
+- Mobile responsiveness
+- Scroll has input lag (for some reason)
+
 ## Cool things I did while making this
 Various CSS Animations
 - On hover text and moving effects
