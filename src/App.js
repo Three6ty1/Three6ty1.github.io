@@ -13,6 +13,7 @@ function App() {
           <Helmet>
             <title>Three6ty1's Page</title>
             <meta name='Three6ty1s Page'/>
+            <link rel='icon' type='image/png' href='favicon.ico?' sizes='16x16'/>
             <style>
               @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
             </style>
