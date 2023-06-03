@@ -33,7 +33,7 @@ function Project(props) {
 
         <CardContent className='project-content'>
           <Typography sx={{fontWeight: 'light', color: '#1BA098'}} variant='h5' gutterBottom>
-            <Link underline='none' sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}} className='moving-heading'>
+            <Link href='https://github.com/Three6ty1/Page' target='_blank' underline='none' sx={{ color: 'inherit', font: 'inherit', '&:hover': { cursor: 'pointer' }}} className='moving-heading'>
               {project.name.split('').map((letter, index) => (
                 <span key={'project-letter-' + index} style={{'--n':index}}>{letter}</span>
               ))}

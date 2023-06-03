@@ -8,12 +8,10 @@ import Interests from './Interests';
 /*
 Important
 TODO: Set up actual links for the project and contact section
-TODO: Fix meta data for website. Tab image and text. 
-TODO: Fix up repo README and About section
 TODO: Mobile responsiveness (Maybe)
 
 Misc
-TODO: Fix nav bar scroll delay...
+TODO: Redo the react scroll section to fix lag.
 */
 
 function Home() {

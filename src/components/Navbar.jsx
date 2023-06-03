@@ -23,14 +23,14 @@ function Navbar() {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar elevation={0} position="static" sx={{bgcolor: 'inherit', color: '#1BA098'}}>
         <Toolbar>
-          <Link to='Home' spy={true} smooth={true} offset={-100} duration={750} className='navbar-link'>
+          <Link to='Home' smooth={true} offset={-50} duration={500} exact='true' className='navbar-link'>
             <MenuItem theme={hoverTheme}>
               <Typography variant='h6' sx={{fontWeight: 'bold'}} textAlign="center">Home</Typography>  
             </MenuItem>
           </Link>
 
           {sections.map((section) => (
-              <Link key={section} to={section} spy={true} smooth={true} offset={-50} duration={750} className='navbar-link'>
+              <Link key={section} to={section} exact='true' smooth={true} offset={-70} duration={500} className='navbar-link' isDynamic={false}>
                 <MenuItem theme={hoverTheme}>
                   <Typography variant='h6' sx={{fontWeight: 'bold'}} textAlign="center">{section}</Typography>
                 </MenuItem>

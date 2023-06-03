@@ -11,6 +11,8 @@ function App() {
       <Fragment>
         <HelmetProvider>
           <Helmet>
+            <title>Three6ty1's Page</title>
+            <meta name='Three6ty1s Page'/>
             <style>
               @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
             </style>
