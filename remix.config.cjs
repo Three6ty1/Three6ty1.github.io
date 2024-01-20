@@ -7,5 +7,11 @@ module.exports = {
   publicPath: "/build/",
   serverBuildDirectory: "build",
   devServerPort: 8002,
-  ignoredRouteFiles: [".*"]
+  ignoredRouteFiles: [".*"],
+  routes(defineRoutes) {
+    return defineRoutes((route) => {
+      route("/", "routes/index.tsx", {index: true});
+      route("/arknights-wordle", "routes/arknights-wordle.tsx");
+    })
+  }
 };
