@@ -792,7 +792,7 @@ function Index() {
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-Z5K2Q2OQ.js", imports: ["/build/_shared/chunk-U32H4XJQ.js", "/build/_shared/chunk-DWFMXSZ6.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RYCVZTSU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !0 }, "routes/arknights-wordle": { id: "routes/arknights-wordle", parentId: "root", path: "page/arknights-wordle", index: void 0, caseSensitive: void 0, module: "/build/routes/arknights-wordle-KCASLSC3.js", imports: void 0, hasAction: !0, hasLoader: !0, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: "page/", index: !0, caseSensitive: void 0, module: "/build/routes/index-MY6HFYGI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "12eeec66", hmr: void 0, url: "/build/manifest-12EEEC66.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-Z5K2Q2OQ.js", imports: ["/build/_shared/chunk-U32H4XJQ.js", "/build/_shared/chunk-DWFMXSZ6.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RYCVZTSU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !0 }, "routes/arknights-wordle": { id: "routes/arknights-wordle", parentId: "root", path: "arknights-wordle", index: void 0, caseSensitive: void 0, module: "/build/routes/arknights-wordle-KCASLSC3.js", imports: void 0, hasAction: !0, hasLoader: !0, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: "index", index: void 0, caseSensitive: void 0, module: "/build/routes/index-MY6HFYGI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "7bc77920", hmr: void 0, url: "/build/manifest-7BC77920.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "production", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
@@ -807,7 +807,7 @@ var mode = "production", assetsBuildDirectory = "public\\build", future = { v3_f
   "routes/arknights-wordle": {
     id: "routes/arknights-wordle",
     parentId: "root",
-    path: "page/arknights-wordle",
+    path: "arknights-wordle",
     index: void 0,
     caseSensitive: void 0,
     module: arknights_wordle_exports
@@ -815,8 +815,8 @@ var mode = "production", assetsBuildDirectory = "public\\build", future = { v3_f
   "routes/index": {
     id: "routes/index",
     parentId: "root",
-    path: "page/",
-    index: !0,
+    path: "index",
+    index: void 0,
     caseSensitive: void 0,
     module: routes_exports
   }
