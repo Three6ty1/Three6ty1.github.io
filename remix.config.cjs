@@ -10,8 +10,8 @@ module.exports = {
   ignoredRouteFiles: [".*"],
   routes(defineRoutes) {
     return defineRoutes((route) => {
-      route("/", "routes/index.tsx", {index: true});
-      route("/arknights-wordle", "routes/arknights-wordle.tsx");
+      route("page/", "routes/index.tsx", {index: true});
+      route("page/arknights-wordle", "routes/arknights-wordle.tsx");
     })
   }
 };
