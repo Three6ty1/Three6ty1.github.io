@@ -17,6 +17,7 @@ TODO: Redo the react scroll section to fix lag.
 function Home() {
   return (
     <section id='Home'>
+      <span>Old website</span>
       <About />
       <Contact />
       <br />
