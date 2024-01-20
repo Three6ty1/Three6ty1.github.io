@@ -44,7 +44,7 @@ import {
 import * as React from "react";
 
 // app/styles/global.css
-var global_default = "/build/_assets/global-BKAKIHEP.css";
+var global_default = "/build/_assets/global-467E5OBI.css";
 
 // app/root.tsx
 import { jsx as jsx2, jsxs } from "react/jsx-runtime";
@@ -786,23 +786,13 @@ var routes_exports = {};
 __export(routes_exports, {
   default: () => Index
 });
-import { jsx as jsx16, jsxs as jsxs11 } from "react/jsx-runtime";
+import { jsx as jsx16 } from "react/jsx-runtime";
 function Index() {
-  return /* @__PURE__ */ jsxs11("div", { children: [
-    /* @__PURE__ */ jsx16("button", { className: "btn", onClick: () => document.getElementById("my_modal_2").showModal(), children: "open modal" }),
-    /* @__PURE__ */ jsxs11("dialog", { id: "my_modal_2", className: "modal", children: [
-      /* @__PURE__ */ jsxs11("div", { className: "modal-box", children: [
-        /* @__PURE__ */ jsx16("h3", { className: "font-bold text-lg", children: "Hello!" }),
-        /* @__PURE__ */ jsx16("p", { className: "py-4", children: "Press ESC key or click outside to close" })
-      ] }),
-      /* @__PURE__ */ jsx16("form", { method: "dialog", className: "modal-backdrop", children: /* @__PURE__ */ jsx16("button", { children: "close" }) })
-    ] }),
-    /* @__PURE__ */ jsx16("h1", { className: "text-blue", children: "Hello, World!" })
-  ] });
+  return /* @__PURE__ */ jsx16("div", { children: "What the hell!!" });
 }
 
 // server-assets-manifest:@remix-run/dev/assets-manifest
-var assets_manifest_default = { entry: { module: "/build/entry.client-Z5K2Q2OQ.js", imports: ["/build/_shared/chunk-U32H4XJQ.js", "/build/_shared/chunk-DWFMXSZ6.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-N4TYSEZN.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !0 }, "routes/arknights-wordle": { id: "routes/arknights-wordle", parentId: "root", path: "arknights-wordle", index: void 0, caseSensitive: void 0, module: "/build/routes/arknights-wordle-KCASLSC3.js", imports: void 0, hasAction: !0, hasLoader: !0, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: "index", index: void 0, caseSensitive: void 0, module: "/build/routes/index-HZXESY6X.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "416e59e9", hmr: void 0, url: "/build/manifest-416E59E9.js" };
+var assets_manifest_default = { entry: { module: "/build/entry.client-Z5K2Q2OQ.js", imports: ["/build/_shared/chunk-U32H4XJQ.js", "/build/_shared/chunk-DWFMXSZ6.js"] }, routes: { root: { id: "root", parentId: void 0, path: "", index: void 0, caseSensitive: void 0, module: "/build/root-RYCVZTSU.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !0 }, "routes/arknights-wordle": { id: "routes/arknights-wordle", parentId: "root", path: "arknights-wordle", index: void 0, caseSensitive: void 0, module: "/build/routes/arknights-wordle-KCASLSC3.js", imports: void 0, hasAction: !0, hasLoader: !0, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 }, "routes/index": { id: "routes/index", parentId: "root", path: "index", index: void 0, caseSensitive: void 0, module: "/build/routes/index-MY6HFYGI.js", imports: void 0, hasAction: !1, hasLoader: !1, hasClientAction: !1, hasClientLoader: !1, hasErrorBoundary: !1 } }, version: "7bc77920", hmr: void 0, url: "/build/manifest-7BC77920.js" };
 
 // server-entry-module:@remix-run/dev/server-build
 var mode = "production", assetsBuildDirectory = "public\\build", future = { v3_fetcherPersist: !1, v3_relativeSplatPath: !1 }, publicPath = "/build/", entry = { module: entry_server_exports }, routes = {
