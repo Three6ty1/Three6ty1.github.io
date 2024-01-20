@@ -1,5 +1,5 @@
 /**
- * @type {import('@remix-run/dev/config').AppConfig}
+ * @type {import('@remix-run/dev').AppConfig}
  */
 module.exports = {
   appDirectory: "app",
@@ -8,10 +8,4 @@ module.exports = {
   serverBuildDirectory: "build",
   devServerPort: 8002,
   ignoredRouteFiles: [".*"],
-  routes(defineRoutes) {
-    return defineRoutes((route) => {
-      route("page/", "routes/index.tsx", {index: true});
-      route("page/arknights-wordle", "routes/arknights-wordle.tsx");
-    })
-  }
 };
